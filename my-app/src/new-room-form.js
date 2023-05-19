@@ -30,7 +30,7 @@ export default class NewRoomForm extends React.Component {
             <div>
                 <input type="text" placeholder="Name" onChange={this.handleNameChange} value={this.state.nameValue} />
                 <input type="text" placeholder="Area" onChange={this.handleAreaChange} value={this.state.areaValue} />
-                <button onClick={this.handleClick}>Add Room</button>
+                <button onClick={this.handleClick}>Add new house</button>
             </div>
 
         );

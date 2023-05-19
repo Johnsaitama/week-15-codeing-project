@@ -24,3 +24,4 @@ export default class House extends React.Component{
         );   
     }
 }
+
